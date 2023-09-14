@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WonderlandGroup</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+
+</head>
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="s-header__block">
+                <div class="s-header__logo">
+                    <a class="logo" href="index.html">
+                        <img src="images/wonder.png" alt="Homepage">
+                    </a>
+                </div>
+
+                <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+            <!-- end s-header__block -->
+
+            <div class="row s-header__nav-wrap">
+                <nav class="s-header__nav">
+                    <ul>
+                        <li class="current">
+                            <a href="#intro" class="smoothscroll">Home</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="smoothscroll">Services</a>
+                        </li>
+                        <li><a href="#works" class="smoothscroll">Projects</a></li>
+                        <li>
+                            <a href="#works" class="smoothscroll">Patners</a>
+                        </li>
+                        <li><a href="#works" class="smoothscroll">Videos</a></li>
+                        <li><a href="#works" class="smoothscroll">Gallery</a></li>
+                        <li><a href="#contact" class="smoothscroll">Contact Us</a></li>
+                    </ul>
+                </nav>
+
+                <ul class="s-header__social">
+                    <li>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                            <span class="screen-reader-text">Facebook</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/wonderlandactivations/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                            <span class="screen-reader-text">Instagram</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- end s-header__nav-wrap -->
+        </header>
+        <!-- end s-header -->
+
+
+        <!-- # intro 
+        ================================================== -->
+        <section id="intro" class="s-intro target-section">
+
+            <div class="row">
+                <div class="column">
+                    <div class="s-intro__top-block">
+
+
+                        <span class="s-intro__bg ">  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js "></script>
+                            <lottie-player src="https://lottie.host/2e573206-3ad4-4894-bb47-9250ae99150a/A3cPpYk0JA.json" background="transparent" speed="0.8 " style="width: 100%; height: 400px; " loop autoplay "></lottie-player>
+            </span>
+
+                        <h1 class="s-intro__text ">
+                            Wonderland Activations
+                            <br>Your Brand Activation Partner<span>.</span>
+                        </h1>
+
+                        <a href="#services " class="s-intro__scroll-down smoothscroll ">
+
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-x-center s-intro__about-wrap ">
+                <div class="column s-intro__about ">
+                    <h2 class="s-intro__about-title ">Welcome, We Are The WonderlandGroup.</h2>
+
+                    <p>
+                        (WAP) is a leading brand activation company that strives to deliver and exceed set objectives and expectations.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- end about-stats -->
+
+            <!-- end about-stats -->
+
+        </section>
+        <!-- end s-intro -->
+
+
+        <!-- # services
+        ================================================== -->
+        <section id="services " class="s-services target-section ">
+
+            <div class="row section-header has-bottom-sep ">
+                <div class="column lg-12 ">
+                    <h3 class="text-pretitle ">What We Do</h3>
+                    <h1 class="text-display-title ">
+                        Our Process
+                    </h1>
+                </div>
+            </div>
+            <!-- end section-header -->
+
+            <div class="row services-list block-lg-one-half block-tab-whole " data-animate-block>
+
+                <div class="column service-item " data-animate-el>
+                    <div class="service-icon-block ">
+                        <span class="service-icon service-icon--product-design "></span>
+                    </div>
+                    <div class="service-text ">
+                        <h3 class="h4 ">Market Research & Analysis</h3>
+                        <p>Identify the target audience: Understand who the ideal customers are for the client's products or services. Competitive analysis: Analyze the client's competitors to identify strengths, weaknesses, opportunities, and threats. Industry
+                            research: Stay updated on industry trends, market dynamics, and consumer behavior to make informed decisions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column service-item " data-animate-el>
+                    <div class="service-icon-block ">
+                        <span class="service-icon service-icon--branding "></span>
+                    </div>
+                    <div class="service-text ">
+                        <h3 class="h4 ">Strategic Planning</h3>
+                        <p>Develop a marketing strategy: Create a comprehensive plan that outlines the client's goals, target audience, messaging, and tactics. Set objectives: Define clear and measurable objectives to track progress and success. Budget allocation:
+                            Determine the marketing budget and allocate it to various channels and activities.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column service-item " data-animate-el>
+                    <div class="service-icon-block ">
+                        <span class="service-icon service-icon--frontend "></span>
+                    </div>
+                    <div class="service-text ">
+                        <h3 class="h4 ">Execution of Marketing Campaigns</h3>
+                        <p>Content creation: Produce compelling content, including blog posts, social media updates, videos, and advertisements. Multi-channel marketing: Utilize various channels such as digital marketing (SEO, SEM, email marketing), social
+                            media, content marketing, print media, events, and more. Campaign management: Monitor, optimize, and manage marketing campaigns to ensure they are on track to meet objectives. Creative design: Develop visual assets, graphics,
+                            and branding materials to maintain a consistent and appealing brand image.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="column service-item " data-animate-el>
+                    <div class="service-icon-block ">
+                        <span class="service-icon service-icon--research "></span>
+                    </div>
+                    <div class="service-text ">
+                        <h3 class="h4 ">Analysis and Reporting</h3>
+                        <p>Data analytics: Use tools and metrics to measure the performance of marketing campaigns and gather insights. Report generation: Create regular reports that showcase key performance indicators (KPIs) and provide recommendations
+                            for improvements. Optimization: Adjust marketing strategies and tactics based on data analysis to maximize ROI and achieve better results. Client communication: Keep clients informed about campaign progress and make strategic
+                            recommendations based on the analysis.
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+            <!-- end services-list -->
+            <!-- end s-services -->
+
+
+        </section>
+        <Section>
+            <p style="color: #10111200;">
+                Spacing
+            </p>
+
+        </Section>
+        <section>
+
+            <div class="row about-stats stats block-lg-one-fourth block-md-one-half block-mob-whole " data-animate-block>
+
+                <div class="column stats__item " data-animate-el>
+                    <div class="stats__count " data-counter=60><span>60</span>+</div>
+                    <h5>Activations</h5>
+                    <p>
+                        We have had the privilege of collaborating with a diverse portfolio of local and international brands, many of whom have returned for recurring partnerships. This recurring business is a testament to the trust they have placed in our brand activation
+                        programs.
+
+                    </p>
+                </div>
+                <div class="column stats__item " data-animate-el>
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js "></script>
+                    <lottie-player src="https://lottie.host/21ee344e-9225-4fa8-9745-a6428b09c297/qieVwYNQzF.json " background="transparent " speed="0.8 " style="width: 400px; height: 400px; " loop autoplay "></lottie-player>
+        
+                </div>
+                <div class="column stats__item " data-animate-el>
+                    
+                </div>
+                
+
+                <div class="column stats__item " data-animate-el>
+                    <div class="stats__count " data-counter=90><span>90</span>+</div>
+                    <h5>Prize Giveaways</h5>
+                    <p>
+                        We have orchestrated grand-scale giveaways, ranging from luxurious cars to substantial cash prizes, alongside captivating store caravans. These successful promotions and activations have been made possible through the unwavering support and trust of our partner brands.
+                </div>
+                
+
+            </div>
+            <!-- end about-stats -->
+        </section>
+        <!-- end s-services -->
+ 
+ <!-- ## works
+        ================================================== -->
+        
+        <section id="works " class="s-works target-section ">
+
+            <div class="row section-header section-header--dark has-bottom-sep ">
+                <div class="column lg-12 ">
+                    <h3 class="text-pretitle ">Recent Works</h3>
+                    <h1 class="text-display-title ">Explore Our Recent Favorite Projects!</h1>
+                </div>
+            </div>
+            <!-- end section-header -->
+            <div class="row folio-list block-lg-one-third block-tab-one-half block-stack-on-550 collapse " data-animate-block>
+                <div class="blog-slider ">
+                    <div class="blog-slider__wrp swiper-wrapper ">
+                      <div class="blog-slider__item swiper-slide ">
+                        <div class="blog-slider__img ">
+                          
+                          <img src="assets/images/junglee.png " alt=" ">
+                        </div>
+                        <div class="blog-slider__content ">
+    
+                          <div class="blog-slider__title ">Jungle</div>
+                          <div class="blog-slider__text ">Jungle was part of the Great Spelling Bee which we had run country wide. Schools bought either Ace, Morvite or Jungle to enter their school and themselves to compete in the spelling bee. The winning school benefited over P100'000 in school prizes. 
+                        </div>
+                          <a href="# " class="blog-slider__button ">Email Us</a>
+                        </div>
+                      </div>
+                      <div class="blog-slider__item swiper-slide ">
+                        <div class="blog-slider__img ">
+                          <img src="assets/images/beacon.png " alt=" ">
+                        </div>
+                        <div class="blog-slider__content ">
+                        
+                          <div class="blog-slider__title ">Beacon</div>
+                          <div class="blog-slider__text ">Beacon has so far been the sweetest brand we have promoted. We launched the Beacon Candy Carnival in Botswana & it was a hit from day one. People enjoyed meeting the Beacon mascots in-stores & the fun games & prizes they won online & in-store. With the carnival spirit we were able to introduce the new range of sweets into the market.</div>
+                          <a href="# " class="blog-slider__button ">Email Us</a>
+                        </div>
+                      </div>
+                      <div class="blog-slider__item swiper-slide ">
+                        <div class="blog-slider__img ">
+                          <img src="assets/images/doom.png " alt=" ">
+                        </div>
+                        <div class="blog-slider__content ">
+                          
+                          <div class="blog-slider__title ">DOOM</div>
+                          <div class="blog-slider__text ">For Doom we painted the city Orange with our in-store promoters & social media platforms. We had a grand prize of a whole kitchen make over valued at P20'000 which inspired thousands of people to purchase doom products.</div>
+                          <a href="# " class="blog-slider__button ">Email Us</a>
+                        </div>
+                      </div>
+                      <div class="blog-slider__item swiper-slide ">
+                        <div class="blog-slider__img ">
+                          <img src="assets/images/fatis.jpg " alt=" ">
+                        </div>
+                        <div class="blog-slider__content ">
+                          
+                          <div class="blog-slider__title ">Fattis & Monis</div>
+                          <div class="blog-slider__text ">Wonderland has had an impressive journey with Fatti's & Moni's. We have had successful cookouts & campaigns which have  lead to thousands of Fatti's & Moni's   products sold, leading to 50% growth in some regions. Collectively we have reached over 500 thousand people on social media.</div>
+                          <a href="# " class="blog-slider__button ">Email Us</a>
+                        </div>
+                      </div>
+                      <div class="blog-slider__item swiper-slide ">
+                        <div class="blog-slider__img ">
+                          <img src="assets/images/five roses.jpg " alt=" ">
+                        </div>
+                        <div class="blog-slider__content ">
+                          
+                          <div class="blog-slider__title ">Five Roses</div>
+                          <div class="blog-slider__text ">Wonderland created a campaign called “Letlhare La Botshelo” translates as “preserving life”. The Campaign in Villages in the Countries, in the city, was all over digital platforms such as dust and Btv's Date my family. We even topped it up with a nation wide fun RedRun to preserve life.</div>
+                          <a href="# " class="blog-slider__button ">Email Us</a>
+                        </div>
+                      </div>
+                      <div class="blog-slider__item swiper-slide ">
+                        <div class="blog-slider__img ">
+                          <img src="assets/images/bs.jpeg " alt=" ">
+                        </div>
+                        <div class="blog-slider__content ">
+                          
+                          <div class="blog-slider__title ">Bakers</div>
+                          <div class="blog-slider__text ">We had one of the biggest cash competitions in the country where we gave away P270,000.00 in cash and P30,000.00 in Vouchers in a campaign called the Big Bonanza where Bakers, Five Roses, Ellis Brown, Tennis Biscuits, Marie Biscuits and Frisco where the min products to buy and win. We kept people engaged and entertained on social media as thats where the voucher winners were being picked.</div>
+                          <a href="# " class="blog-slider__button ">Email Us</a>
+                        </div>
+                      </div>
+                      
+                      <div class="blog-slider__item swiper-slide ">
+                        <div class="blog-slider__img ">
+                          <img src="assets/images/allg.jpg " alt=" ">
+                        </div>
+                        <div class="blog-slider__content ">
+                         
+                          <div class="blog-slider__title ">All Gold</div>
+                          <div class="blog-slider__text ">We have had incredible success with promoting All Gold in Botswana. We ran an All Gold win a party campaign & had a huge success on social media & in-store selling. This campaign was run country wide.</div>
+                          <a href="# " class="blog-slider__button ">Email Us</a>
+                        </div>
+                      </div>
+                      <div class="blog-slider__item swiper-slide ">
+                        <div class="blog-slider__img ">
+                          <img src="assets/images/stat.png " alt=" ">
+                        </div>
+                        <div class="blog-slider__content ">
+                         
+                          <div class="blog-slider__title ">Status</div>
+                          <div class="blog-slider__text ">We ran a successful campaign for status where the grand prize was 2 brand new iPhone 8's & a trip to Cape Town. There was such a buzz of excitement as people saw the campaign been run on social media & in-store which lead to high volumes of status products moving out from the shelves. Now thats R.E.S.P.E.C.T</div>
+                          <a href="# " class="blog-slider__button ">Email Us</a>
+                        </div>
+                      </div>  
+                    </div>
+                    <div class="blog-slider__pagination ">
+                        <button class="pagination-button " data-slide="0 "></button>
+                        <button class="pagination-button " data-slide="1 "></button>
+                        <button class="pagination-button " data-slide="2 "></button>
+                        
+                    </div>
+                  </div>
+                  
+                    <script>
+                        var swiper = new Swiper('.blog-slider', {
+                            spaceBetween: 30,
+                            effect: 'fade',
+                            loop: true,
+                            mousewheel: {
+                                invert: false,
+                            },
+                            // autoHeight: true,
+                            pagination: {
+                                el: '.blog-slider__pagination',
+                                clickable: true,
+                            }
+                            });
+                    </script>
+                    
+                  </div>
+                  
+                  
+                  <style>
+                                            /* Blog Slider container */
+                        .blog-slider {
+                        width: 95%;
+                        position: relative;
+                        max-width: 800px;
+                        margin: auto;
+                        background: #fff;
+                        box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+                        padding: 25px;
+                        border-radius: 25px;
+                        height: 400px;
+                        transition: all 0.3s;
+                        }
+
+                        @media screen and (max-width: 992px) {
+                        .blog-slider {
+                            max-width: 680px;
+                            height: 400px;
+                        }
+                        }
+
+                        @media screen and (max-width: 768px) {
+                        .blog-slider {
+                            min-height: 500px;
+                            height: auto;
+                            margin: 180px auto;
+                        }
+                        }
+
+                        @media screen and (max-height: 500px) and (min-width: 992px) {
+                        .blog-slider {
+                            height: 350px;
+                        }
+                        }
+
+                        /* Blog Slider item */
+                        .blog-slider__item {
+                        display: flex;
+                        align-items: center;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                        .blog-slider__item {
+                            flex-direction: column;
+                        }
+                        }
+
+                        .blog-slider__item.swiper-slide-active {
+                        .blog-slider__img img {
+                            opacity: 1;
+                            transition-delay: 0.3s;
+                        }
+                        .blog-slider__content > * {
+                            opacity: 1;
+                            transform: none;
+                        }
+
+                        @for $i from 0 to 15 {
+                            .blog-slider__content:nth-child(#{$i + 1}) {
+                            transition-delay: $i * 0.1 + 0.3s;
+                            }
+                        }
+                        }
+
+                        /* Blog Slider image */
+                        .blog-slider__img {
+                        width: 100px;
+                        flex-shrink: 0;
+                        height: 100px;
+                        
+                        box-shadow: 4px 13px 30px 1px rgba(226, 205, 14, 0.2);
+                        border-radius: 20px;
+                        transform: translateX(-80px);
+                        overflow: hidden;
+
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                           
+                            border-radius: 20px;
+                            opacity: 0.8;
+                        }
+
+                        img {
+                            width: 50%;
+                            height: 50%;
+                            object-fit: cover;
+                            display: block;
+                            opacity: 0;
+                            border-radius: 20px;
+                            transition: all 0.3s;
+                        }
+
+                        @media screen and (max-width: 992px) {
+                            width: 45%;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            transform: translateY(-50%);
+                            width: 90%;
+                        }
+
+                        @media screen and (max-width: 576px) {
+                            width: 95%;
+                        }
+
+                        @media screen and (max-height: 500px) and (min-width: 992px) {
+                            height: 270px;
+                        }
+                        }
+
+                        /* Blog Slider content */
+                        .blog-slider__content {
+                        padding-right: 25px;
+
+                        @media screen and (max-width: 992px) {
+                            width: 55%;
+                        }
+
+                        @media screen and (max-width: 768px) {
+                            margin-top: -80px;
+                            text-align: center;
+                            padding: 0 30px;
+                        }
+
+                        @media screen and (max-width: 576px) {
+                            padding: 0;
+                        }
+
+                        > * {
+                            opacity: 0;
+                            transform: translateY(25px);
+                            transition: all 0.4s;
+                        }
+                        }
+
+                        /* Blog Slider code */
+                        .blog-slider__code {
+                        color: #7b7992;
+                        margin-bottom: 15px;
+                        display: block;
+                        font-weight: 500;
+                        }
+
+                        /* Blog Slider title */
+                        .blog-slider__title {
+                        font-size: 24px;
+                        font-weight: 700;
+                        color: #0d0925;
+                        margin-bottom: 20px;
+                        }
+
+                        /* Blog Slider text */
+                        .blog-slider__text {
+                        color: #4e4a67;
+                        margin-bottom: 30px;
+                        line-height: 1.5em;
+                        }
+
+                        /* Blog Slider button */
+                        .blog-slider__button {
+                        display: inline-flex;
+                        background-image: linear-gradient(147deg, #928f8c 0%, #b9b7b7 74%);
+                        padding: 15px 35px;
+                        border-radius: 50px;
+                        color: #fff;
+                        box-shadow: 0px 14px 80px rgba(218, 197, 12, 0.4);
+                        text-decoration: none;
+                        font-weight: 500;
+                        justify-content: center;
+                        text-align: center;
+                        letter-spacing: 1px;
+
+                        @media screen and (max-width: 576px) {
+                            width: 100%;
+                        }
+                        }
+
+                        /* Blog Slider pagination */
+                        .swiper-container-horizontal > .swiper-pagination-bullets,
+                        .swiper-pagination-custom,
+                        .swiper-pagination-fraction {
+                        top:5px;
+                        left: 0;
+                        width: 100%;
+                        }
+
+                        .blog-slider__pagination {
+                        position: absolute;
+                        z-index: 21;
+                        right: 20px;
+                        width: 11px !important;
+                        text-align: center;
+                        left: auto !important;
+                        top: 100%;
+                        
+                        transform: translateY(-50%);
+
+                        @media screen and (max-width: 768px) {
+                            transform: translateX(-50%);
+                            left: 50% !important;
+                            top: 205px;
+                            width: 100% !important;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        .pagination-button {
+                            width: 18px;
+                            height: 18px;
+                            display: block;
+                            border-radius: 50%;
+                            background: #F0A500;
+                            opacity: 0.2;
+                            transition: all 0.3s;
+                            cursor: pointer;
+                            }
+
+                            .pagination-button-active {
+                            background: #fd3838;
+                            }
+                        }
+                  </style>
+
+            </div>
+
+            
+            <!-- folio-list -->
+            <div class="row clients-outer " data-animate-block>
+                <div class="column lg-12 ">
+
+                    <h3 class="text-clients-title " data-animate-el>
+                        We've had the priveledge with working with <br> some of the Biggest & most iconic brands
+                    </h3>
+
+                    <div class="swiper-container clients " data-animate-el>
+                        <div class="swiper-wrapper clients__content ">
+
+                            <img src="assets/images/spon.jpg " /></a>
+                        </div>
+
+                    </div>
+                    <!-- end clients -->
+
+
+
+                </div>
+                <!-- end column -->
+
+                <h3 class="text-clients-title " data-animate-el>
+                    Check out Videos From Our Showcases.</h3>
+            </div>
+
+            
+            <!-- end clients-outer -->
+
+            <div class="video-block ">
+                <span class="video-block__bg-left "></span>
+                <span class="video-block__bg-right "></span>
+
+                <div class="video-block__content ">
+
+                    <iframe width="560 " height="315 " src="https://www.youtube.com/embed/videoseries?list=UU5yuz1_WGtX0jMRtgbRmJBA "></iframe>
+
+                    <p class="video-caption ">
+                        Play Me
+                    </p>
+                </div>
+            </div>
+            <!-- end video-block -->
+
+        
+
+        </section>
+       
+    <section style="background-color: #101112 ; padding: 50px; ">
+            <div class="container ">
+                <h2 style="color: white; ">Gallery Section</h2>
+                <p style="color: white; ">In this section Move around your mouse to pop out images.</p>
+                <div class="video-block ">
+                    <img class="image " data-index="0 " data-status="inactive " src="assets/images/1.jpg " />
+                    <img class="image " data-index="1 " data-status="inactive " src="assets/images/22.jpg " />
+                    <img class="image " data-index="2 " data-status="inactive " src="assets/images/33.jpg " />
+                    <img class="image " data-index="3 " data-status="inactive " src="assets/images/4.jpg " />
+                    <img class="image " data-index="4 " data-status="inactive " src="assets/images/35.jpg " />
+                    <img class="image " data-index="5 " data-status="inactive " src="assets/images/6.jpg " />
+                    <img class="image " data-index="6 " data-status="inactive " src="assets/images/7.jpg " />
+                    <img class="image " data-index="7 " data-status="inactive " src="assets/images/8.jpg " />
+                    <img class="image " data-index="8 " data-status="inactive " src="assets/images/36.jpg " />
+                    <img class="image " data-index="9 " data-status="inactive " src="assets/images/10.jpg " />
+                    <img class="image " data-index="10 " data-status="inactive " src="assets/images/11.jpg " />
+                    <img class="image " data-index="11 " data-status="inactive " src="assets/images/12.jpg " />
+                    <img class="image " data-index="12 " data-status="inactive " src="assets/images/40.jpg " />
+                    <img class="image " data-index="13 " data-status="inactive " src="assets/images/14.jpg " />
+                    <img class="image " data-index="14 " data-status="inactive " src="assets/images/15.jpg " />
+                    <img class="image " data-index="15 " data-status="inactive " src="assets/images/16.jpg " />
+                    <img class="image " data-index="16 " data-status="inactive " src="assets/images/17.jpg " />
+                    <img class="image " data-index="17 " data-status="inactive " src="assets/images/18.jpg " />
+                    <img class="image " data-index="18 " data-status="inactive " src="assets/images/19.jpg " />
+                    <img class="image " data-index="19 " data-status="inactive " src="assets/images/20.jpg " />
+                    <img class="image " data-index="20 " data-status="inactive " src="assets/images/21.jpg " />
+                    <img class="image " data-index="21 " data-status="inactive " src="assets/images/2.jpg " />
+                    <img class="image " data-index="22 " data-status="inactive " src="assets/images/23.jpg " />
+                    <img class="image " data-index="23 " data-status="inactive " src="assets/images/24.jpg " />
+                    <img class="image " data-index="24 " data-status="inactive " src="assets/images/25.jpg " />
+                    <img class="image " data-index="25 " data-status="inactive " src="assets/images/26.jpg " />
+                    <img class="image " data-index="26 " data-status="inactive " src="assets/images/27.jpg " />
+                    <img class="image " data-index="27 " data-status="inactive " src="assets/images/28.jpg " />
+                    <img class="image " data-index="28 " data-status="inactive " src="assets/images/29.jpg " />
+                    <img class="image " data-index="29 " data-status="inactive " src="assets/images/31.jpg " />
+                    <img class="image " data-index="30 " data-status="inactive " src="assets/images/32.jpg " />
+                    <img class="image " data-index="31 " data-status="inactive " src="assets/images/3.jpg " />
+                    <img class="image " data-index="32 " data-status="inactive " src="assets/images/9.jpg " />
+                    <img class="image " data-index="33 " data-status="inactive " src="assets/images/5.jpg " />
+                    <img class="image " data-index="34 " data-status="inactive " src="assets/images/37.jpg " />
+                    <img class="image " data-index="35 " data-status="inactive " src="assets/images/38.jpg " />
+                    <img class="image " data-index="36 " data-status="inactive " src="assets/images/39.jpg " />
+                    <img class="image " data-index="37 " data-status="inactive " src="assets/images/13.jpg " />
+                    <img class="image " data-index="38 " data-status="inactive " src="assets/images/41.jpg " />
+    
+                </div>
+
+            </div>
+            
+        </section>
+
+        <section>
+            <p style="color: #10111200; ">
+                Spacing
+            </p>
+            </section>
+        <section id="contact " class="s-contact target-section ">
+
+            <div class="row section-header section-header--dark " ">
+                        <div class="column lg-12 ">
+                            <h1 class="text-display-title ">
+                                We Spark Success: One Brand at a Time
+                            </h1>
+                        </div>
+
+
+                </div>
+
+                <div class="row row-x-center text-center s-contact__content">
+                    <div class="column lg-12">
+                        <div class="content-wrapper">
+                            <p class="lead">
+                                Elevate your brand to new heights with us. Simply send us an email with your details, and we'll get in touch to set everything up for you
+                            </p>
+                            <div class="btn-wrap">
+                                <a href="#0" class="btn btn--primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
+                              <path d="M20,4H4C2.897,4,2,4.897,2,6v12c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2V6C22,4.897,21.103,4,20,4z
+                                  M20,6v0.511 l-8,6.223L4,6.512V6H20z M4,18V9.044l7.386,5.745C11.566,14.93,11.783,15,12,15s0.434-0.07,0.614-0.211L20,9.044L20.002,18H4z"></path>
+                            </svg> Write An Email
+                                </a>
+                            </div>
+                        </div>
+                        <div class="lottie-container">
+                            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://lottie.host/3e366881-a4a0-4e8e-86e2-85f858b45295/x56aVmkpoK.json" background="transparent" speed="0.8" style="width: 120px; height: 120px;" loop autoplay></lottie-player>
+                        </div>
+                    </div>
+                </div>
+
+
+                <footer class="s-footer ">
+
+                    <div class="row s-footer__top ">
+                        <div class="column lg-5 md-8 stack-on-700 s-footer__block contact-address ">
+                            <h4 class="h6 ">Address</h4>
+
+                            <p>
+                                Plot 158, Unit 2 Commerce Park <br> P.O. Box 599 AAD, Gaborone, <br>Botswana
+                            </p>
+                        </div>
+
+                        <div class="column lg-3 md-4 stack-on-700 s-footer__block contact-social ">
+                            <h4 class="h6 ">Follow Us</h4>
+
+                            <ul class="contact-list ">
+                                <li><a href="#0 ">Facebook</a></li>
+
+                                <li><a href="#0 ">Instagram</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="column lg-3 md-12 s-footer__block contact-number ">
+                            <h4 class="h6 ">Contact Us</h4>
+
+                            <ul class="contact-list ">
+                                <li><a href="mailto:#0 ">wonderlandactivations@gmail.com</a></li>
+
+                                <li>
+                                    <a href="tel:311 5223 ">311 5223</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- end s-footer__top -->
+
+                    <div class="row s-footer__bottom ">
+                        <div class="column ss-copyright ">
+                            <span>© Copyright WonderlandGroup 2023</span>
+                        </div>
+
+                        <div class="ss-go-top ">
+                            <a class="smoothscroll " title="Back to Top " href="#top ">
+                                <span class="ss-go-top__icon ">
+                                <svg xmlns="http://www.w3.org/2000/svg " width="24 " height="24 " viewBox="0 0 24 24 " style="fill:rgba(0, 0, 0, 1);transform:rotate(90deg);-ms-filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1)
+                            "><path d="M6 4H18V6H6zM11 14L11 20 13 20 13 14 18 14 12 8 6 14z "></path></svg>
+                            </span>
+                                <span class="ss-go-top__text ">Back to Top</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end s-footer__top -->
+
+                </footer>
+
+        </section>
+        <!-- end s-contact -->
+
+        </div>
+        <!-- end -s-pagewrap -->
+
+
+        <!-- photoswipe background
+    ================================================== -->
+
+
+
+        <!-- Java Script
+    ================================================== -->
+        <script src="js/plugins.js "></script>
+        <script src="js/main.js "></script>
+
+</body>
+
+</html>
+
+</html>
+
+<!-- Java Script
+    ================================================== -->
+<script src="js/plugins.js "></script>
+<script src="js/main.js "></script>
+<script src="gallery.js "></script>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.2.0/swiper-bundle.min.js" integrity="sha512-QwpsxtdZRih55GaU/Ce2Baqoy2tEv9GltjAG8yuTy2k9lHqK7VHHp3wWWe+yITYKZlsT3AaCj49ZxMYPp46iJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
+
+</html>
+
+</html>
+
+</html>
